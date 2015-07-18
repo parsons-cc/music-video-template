@@ -1,5 +1,6 @@
 // start volume of the song (value between 0 and 1)
 var volume = 1.0;
+var songUrl = 'https://dl.dropboxusercontent.com/u/2100102/parsons-cc/seu-mane-luiz.mp3';
 
 /**
  * @name preload
@@ -11,7 +12,7 @@ var volume = 1.0;
  */
 function preload() {
   // load the sound file!
-  song = loadSound('https://dl.dropboxusercontent.com/u/2100102/parsons-cc/seu-mane-luiz.mp3');
+  song = loadSound(songUrl);
 }
 
 
